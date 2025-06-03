@@ -1,0 +1,25 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:fxdb
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+server:
+  port: 8080
+
+fixer:
+  url: https://data.fixer.io/api/latest
+  accessKey: 4e9ba1729dff90ad1708dea7fdf7a646  # accesKey : https://fixer.io/dashboard burdan al?nmal?
+
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+
+
