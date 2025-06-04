@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.exchange</groupId>
-	<artifactId>ForeignExchangeManagementProject</artifactId>
+	<artifactId>foreignexchangemanagementproject</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>ForeignExchangeManagementProject</name>
 	<description>ForeignExchangeManagementProject for Spring Boot</description>
